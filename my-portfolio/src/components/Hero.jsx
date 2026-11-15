@@ -25,7 +25,7 @@ const Hero = () => {
           </h1>
           {/* Subheading */}
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-sm md:text-base lg:text-lg xl:text-xl`}>
-            I'm a skilled software developer currently pursuing a Bachelor of Science in Computer Science from the City University of New York, College of Staten Island. I specialize in 3D visuals, user interfaces, and web applications.
+            I'm pursuing an M.S. in Computer Science at the College of Staten Island (CUNY). My work spans applied AI evaluation, geospatial data engineering and full-stack development.
           </p>
         </div>
       </div>

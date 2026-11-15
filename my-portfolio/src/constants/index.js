@@ -1,264 +1,121 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  mobile, backend, creator, web, javascript, typescript, html, css,
+  reactjs, tailwind, nodejs, git, docker, threejs,
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "contact", title: "Contact" },
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  { title: "Data Engineering", icon: backend },
+  { title: "Applied AI & Evaluation", icon: creator },
+  { title: "Geospatial Systems", icon: mobile },
+  { title: "Full-Stack Development", icon: web },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "React JS", icon: reactjs },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "Three JS", icon: threejs },
+  { name: "Git", icon: git },
+  { name: "Docker", icon: docker },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Geospatial & Data Engineering",
+    company_name: "NYC Department of Transportation",
+    icon: backend,
+    iconBg: "#182f40",
+    date: "Internship",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with Python, ArcPy and spatial datasets to support transportation workflows.",
+      "Helped migrate GIS processing to ArcGIS Pro and maintain interactive mapping tools.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "AI Evaluation",
+    company_name: "Snorkel AI",
+    icon: creator,
+    iconBg: "#182f40",
+    date: "Professional experience",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to AI evaluation work and practical quality-review workflows.",
+      "Focused on clear, testable outputs rather than unsupported model performance claims.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Graduate Computer Science",
+    company_name: "College of Staten Island (CUNY)",
+    icon: web,
+    iconBg: "#182f40",
+    date: "M.S. studies",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Studying natural language processing, advanced operating systems and smart-city simulation.",
+      "Building research projects that combine implementation with reproducible experiments.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Collaborative Full-Stack Development",
+    company_name: "Nature's Call / Tech Talent Pipeline",
+    icon: mobile,
+    iconBg: "#182f40",
+    date: "Team project and training",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated on a location-based public bathroom finder with React, Express and PostgreSQL.",
+      "Worked on API routes, application data and ongoing security improvements.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// This portfolio intentionally does not publish the starter template's
+// invented endorsements. Add testimonials only with real permission.
+const testimonials = [];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    name: "Process-Pilot",
+    description: "Deterministic FCFS and Round Robin CPU scheduling simulator with validated requests and regression tests.",
+    tags: [{ name: "typescript", color: "blue-text-gradient" }, { name: "nextjs", color: "green-text-gradient" }],
+    source_code_link: "https://github.com/rainrunner20/Process-Pilot",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    name: "IceBrAIker",
+    description: "Networking conversation-starter interface with a Flask API and an explicitly fictional offline demo.",
+    tags: [{ name: "react", color: "blue-text-gradient" }, { name: "flask", color: "green-text-gradient" }],
+    source_code_link: "https://github.com/rainrunner20/IceBrAIker",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    name: "TweetInsights",
+    description: "Offline social-topic trend analysis with UTC window comparison, JSON exports and a visual HTML report.",
+    tags: [{ name: "python", color: "blue-text-gradient" }, { name: "analytics", color: "pink-text-gradient" }],
+    source_code_link: "https://github.com/rainrunner20/TweetInsights",
+  },
+  {
+    name: "NYC Coordinate Reprojector",
+    description: "Tested CSV/XLSX workflow that converts WGS84 coordinate columns to EPSG:2263 projected X/Y.",
+    tags: [{ name: "gis", color: "green-text-gradient" }, { name: "python", color: "blue-text-gradient" }],
+    source_code_link: "https://github.com/rainrunner20/NYC-DOT-OpenData-Coordinate-Reprojector",
+  },
+  {
+    name: "Nature's Call",
+    description: "Team-built NYC bathroom finder with map, reviews and account-management source code.",
+    tags: [{ name: "react", color: "blue-text-gradient" }, { name: "postgresql", color: "green-text-gradient" }],
+    source_code_link: "https://github.com/rainrunner20/Natures-Call",
+  },
+  {
+    name: "Sensor Forecasting",
+    description: "Reproducible five-minute sensor forecast benchmark against a persistence baseline; not a flood alert service.",
+    tags: [{ name: "scikit-learn", color: "blue-text-gradient" }, { name: "evaluation", color: "pink-text-gradient" }],
+    source_code_link: "https://github.com/rainrunner20/flood-prediction-nyc-",
   },
 ];
 
